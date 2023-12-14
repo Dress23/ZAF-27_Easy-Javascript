@@ -83,9 +83,56 @@ console.log(result(2),'question19');
  let firstDigit=firstNumber(arrNumber);
 
  console.log(firstDigit,'quesiton21');
+ let teamPoints=function(twopoints,threepoints){
+    return twopoints*2 + threepoints*3;
+ }
+console.log(teamPoints(4,6),'question22');
+//taking two numbers to check less than 30
+function lessThan (x1,x2) {
+    if (x1+x2 < 30)
+    {
+    return true;
+}
+   else {
+    return false
+}
+};
 
 
+console.log(lessThan(100,5),'question23');
+//checking numbers equal
+function isEqual(x2,x3){
+    if(x2===x3){
+        return true;
+    }
+    else{
+        return false;
+    }
 
+}
+console.log(isEqual(6,5),'question24');
+
+function stringCount(x4,x5){
+    if(x4.length == x5.length){
+return true;
+    }
+else {
+    return false;
+
+}
+    }
+    console.log(stringCount('abb','zbb'),'question26');
+
+function divisibleByFive(x6){
+    if(x6 % 5==0){
+    return true;
+
+    }
+    else{
+        return false;
+    }
+}
+console.log(divisibleByFive(3),'question 27');
 
 
 
