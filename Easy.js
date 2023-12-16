@@ -183,8 +183,10 @@ function greeting(name){
 }
 console.log (greeting("Behailu"),'question34');
 
+for(let x=1; x < 100 ; x+=2){
 
-
+    console.log(x);
+}
 
 
 
