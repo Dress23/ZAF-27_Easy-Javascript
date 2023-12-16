@@ -2,12 +2,10 @@ let hello=function () {
 console.log("hello world");
 }
 console.log(hello(),'question1');
-
 let add=function(num1,num2){
     return num1+num2;
 }
 console.log(add(1,2),'question2');
-
 //using ternary operation
 let evenOrOdd = function (number) {
     return number % 2 === 0 ? 'Even' : 'Odd';
@@ -27,7 +25,7 @@ let number6= function(num6,num7){
 console.log(number6 (2.44,2.999).toFixed(2),'question7');
 //sqaure root of number
 let sqaure=function(a){
-    return a*a;
+    return Math.sqrt(a);
 }
 console.log(sqaure(20),'question8');
 // sum of two positive integer
@@ -38,6 +36,7 @@ let sumOfPos=function(a1,b){
 else {
     return "not postive numbers";
 }
+
 }
 console.log(sumOfPos(1,-2),'question9');
 
@@ -94,11 +93,9 @@ function lessThan (x1,x2) {
     return true;
 }
    else {
-    return false
-}
+    return false;
 };
-
-
+}
 console.log(lessThan(100,5),'question23');
 //checking numbers equal
 function isEqual(x2,x3){
@@ -107,8 +104,7 @@ function isEqual(x2,x3){
     }
     else{
         return false;
-    }
-
+    };
 }
 console.log(isEqual(6,5),'question24');
 
@@ -118,7 +114,6 @@ return true;
     }
 else {
     return false;
-
 }
     }
     console.log(stringCount('abb','zbb'),'question26');
@@ -133,6 +128,74 @@ function divisibleByFive(x6){
     }
 }
 console.log(divisibleByFive(3),'question 27');
+
+function gettingService(age,bartender){
+  if (age>=18 && bartender==='not on break') {
+     return"you can get service";
+   }
+ else{
+   return "not service";
+}
+}
+console.log(gettingService(19,'not on break'),'question28');
+
+function isOdd(str){
+    if(str.length %2===0) {
+        return true;
+    }
+        else{
+            return false;
+        }
+    }
+
+console.log(isOdd('ababe2'),'question29?');
+
+function lastItem(arr){
+    return arr[arr.length-1];
+
+}
+let arrb=['ababe','kebede','alemu'];
+console.log(lastItem(arrb),'question30');
+
+let firstStr ='Ethiopia';
+function firstLetter(string2){
+return string2.substring(1);
+}
+
+console.log(firstStr.substring(1),'question31');
+function toArr(num2,num3){
+    return[num2,num3];
+
+}
+console.log(toArr(5,6),'question32');
+
+function arr4(arr5){
+   return arr5.join("");
+}
+
+const array1 = ['abeb', 2, 'a', 'kebded'];
+
+console.log(arr4(array1),'quesion33');
+
+function greeting(name){
+    return 'Hello '.concat(name, '!');
+
+}
+console.log (greeting("Behailu"),'question34');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
