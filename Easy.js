@@ -1,7 +1,7 @@
-let hello=function () {
-console.log("hello world");
-}
-console.log(hello(),'question1');
+ {
+console.log("hello, world!");
+ }
+
 let add=function(num1,num2){
     return num1+num2;
 }
@@ -187,9 +187,6 @@ for(let x=1; x < 100 ; x+=2){
 
     console.log(x);
 }
-
-
-
 
 
 
