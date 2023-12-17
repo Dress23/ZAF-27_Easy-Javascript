@@ -185,8 +185,69 @@ console.log (greeting("Behailu"),'question34');
 
 for(let x=1; x < 100 ; x+=2){
 
-    console.log(x);
+    console.log((x),'question36');
 }
+function people(n) {
+    let car;
+    let result = n / 5;
+    let people = n;
+{
+        if (n % 5 === 0) {
+            return result;}
+    else { if (n % 5 !== 0 ) {
+                return Math.ceil(result);
+            }
+        }}
+    }
+console.log(people(40),'question35');
+
+const sumAll = function(a, b) {
+    let total = [];
+  let sum = 0;
+    let first = a;
+    let second = b
+    if (a < b) {
+        for (let i = a ; i < b; i++) {
+            total.push(i);
+        }
+    }
+    else {
+        for (let i = b; i < a; i++) {
+            total.push(i);
+        }
+            for (let i = 0+1; i < total.length; i++) {
+                sum += total[i];
+            };
+         return sum;
+        }}
+console.log(sumAll(5,1),'question37');
+
+let arr38 = [
+    {
+      name: 'belete',
+      age: 44,
+      email: 'belete.com',
+    },
+    {
+      name: 'behailu',
+      age: 100,
+      email: '',
+    }
+  ]
+function removed(arr38){
+   return arr38.slice([1]);
+
+}
+console.log(removed(arr38),'question38');
+
+
+
+
+
+
+
+
+
 
 
 
