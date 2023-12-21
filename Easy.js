@@ -234,15 +234,11 @@ let arr38 = [
       email: '',
     }
   ]
-function removed(arr38){
-   return arr38.slice([1]);
-
+  function person(arr38){
+   return arr38.email =='';
 }
-console.log(removed(arr38),'question38');
 
-
-
-
+console.log(arr38.filter(person));
 
 
 
